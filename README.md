@@ -1,3 +1,1 @@
-# fuwa.fun
-# labs
 # labs
