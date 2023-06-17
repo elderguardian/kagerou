@@ -1,1 +1,3 @@
-# labs
+# kagerou
+
+My static site.
