@@ -4,28 +4,64 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="ton/ton/ton.css">
     <meta name="robots" content="index, follow">
-    <title>Kagerou — A students page.</title>
+    <title>Kagerou</title>
     <meta name="title" content="Kagerou — A students page.">
-    <meta name="description" content="Hello World! This is my open source webpage. ">
+    <meta name="description" content="Hello World! This is my webpage. ">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kagerou.dev/">
-    <meta property="og:title" content="Kagerou — A students page.">
-    <meta property="og:description" content="Hello World! This is my open source webpage. ">
-    <meta property="og:image" content="https://kagerou.dev/images/azusa-forest.jpeg">
+    <meta property="og:title" content="Kagerou">
+    <meta property="og:description" content="Hello World! This is my webpage. ">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://kagerou.dev/">
-    <meta property="twitter:title" content="Kagerou — A students page.">
-    <meta property="twitter:description" content="Hello World! This is my open source webpage. ">
-    <meta property="twitter:image" content="https://kagerou.dev/images/azusa-forest.jpeg">
+    <meta property="twitter:title" content="Kagerou">
+    <meta property="twitter:description" content="Hello World! This is my webpage. ">
     <meta name="theme-color" content="#2296ab">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <style>
+        :root {
+            --color-primary: #7286D3;
+            --color-secondary: #C4D7B2;
+            --color-tertiary: rgba(201, 201, 201, 0.3);
+            --color-accent: #A0C49D;
+            --color-foreground: black;
+            --color-foreground-secondary: #FFF2F2;
+
+            --background-primary: #f8f8f8;
+            --background-secondary: #A0C49D;
+        }
+
+        h1::selection {
+            color: transparent;
+            background-color: transparent;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-family: 'Marck Script', cursive;
+            background-clip: text;
+
+            text-transform: capitalize;
+
+            transform: rotate(-8deg) translateY(-.2rem);
+            display: inline-block;
+
+            background: rgb(67, 206, 162);
+            background: -moz-linear-gradient(100deg, rgba(67, 206, 162, 1) 0%, rgba(24, 90, 157, 1) 100%);
+            background: -webkit-linear-gradient(100deg, rgba(67, 206, 162, 1) 0%, rgba(24, 90, 157, 1) 100%);
+            background: linear-gradient(100deg, rgba(67, 206, 162, 1) 0%, rgba(24, 90, 157, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#43cea2", endColorstr="#185a9d", GradientType=1);
+
+            background-clip: text;
+            color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
 </head>
 <body>
 <main>
     <section>
-        <h1><a href="">kagerou</a>: a students page</h1>
+        <h1>kagerou</h1>
         <p>
             This page is open source. You can visit its repository on
             <a target="_blank" href="https://github.com/elderguardian/kagerou">GitHub</a>. It was built using <b>Ton CSS</b>, which
