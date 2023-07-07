@@ -1,0 +1,36 @@
+@font-face {
+    src: url("../fonts/PlayfairDisplay.ttf");
+    font-family: "Playfair Display";
+    font-display: swap;
+}
+
+::selection {
+    background-color: #e5e5e5;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    font-family: "Playfair Display", "Times New Roman", serif;
+}
+
+h1, p {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 15vw;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+}
