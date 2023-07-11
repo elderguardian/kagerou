@@ -34,3 +34,26 @@ p {
         font-size: 4vw;
     }
 }
+
+* {
+    cursor: crosshair;
+}
+
+#main-section-bottom {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#main-section-bottom svg,
+#main-section-bottom svg path {
+    transition: all .3s;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#main-section-bottom svg:hover,
+#main-section-bottom svg:hover path {
+    opacity: 0.7;
+}
