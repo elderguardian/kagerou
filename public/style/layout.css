@@ -1,0 +1,109 @@
+@font-face {
+    src: url("../fonts/Inter-Bold.woff2");
+    font-family: "Inter Bold";
+    font-display: swap;
+}
+
+@font-face {
+    src: url("../fonts/Inter-SemiBold.woff2");
+    font-family: "Inter Semi Bold";
+    font-display: swap;
+}
+
+@font-face {
+    src: url("../fonts/Inter-Regular.woff2");
+    font-family: "Inter";
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    word-break: break-word;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+}
+
+header h1 {
+    font-size: 23px;
+    color: white;
+    font-family: "Inter Bold", "Arial", serif;
+}
+
+header a {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: opacity .3s ease-in;
+    text-align: right;
+    padding: 1rem 1.5rem;
+}
+
+header a:hover {
+    background: radial-gradient(circle at 50% 300%, white, #6b6f76);
+    color: white;
+}
+
+body {
+    margin: 0 15%;
+    background-color: #131415;
+    color: #9a9fa8;
+    font-family: "Inter", "Arial", serif;
+}
+
+#section-landing {
+    margin: 5rem 0;
+    text-align: center;
+    min-height: 45vh;
+}
+
+#section-landing h2 {
+    font-size: 56px;
+    margin: 2rem 0;
+    color: white;
+    font-family: "Inter Bold", "Arial", serif;
+}
+
+#section-landing p {
+    font-size: 16px;
+    margin: 1rem 0 3rem;
+}
+
+#section-landing a {
+    font-size: 16px;
+    margin: 0 1rem;
+    color: #f6f6f6;
+    background-color: #131415;
+    box-shadow: rgb(0, 0, 0) 0 10px 20px -10px;
+    text-decoration: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: opacity .3s ease-in;
+    text-align: right;
+    padding: 1rem 1.5rem;
+    white-space: nowrap;
+}
+
+#section-landing a:nth-child(1) {
+    background-color: #6968f7;
+}
+
+#section-landing article span {
+    margin: 0 .3rem;
+}
+
+#section-landing article svg {
+    transform: translateY(2px);
+}
