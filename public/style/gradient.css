@@ -1,0 +1,33 @@
+.text-orange-to-purple {
+    background: #FFCC33;
+    background: -webkit-linear-gradient(135deg, #FFCC33 0%, #E233FF 100%);
+    background: -moz-linear-gradient(135deg, #FFCC33 0%, #E233FF 100%);
+    background: linear-gradient(135deg, #FFCC33 0%, #E233FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-blue-to-red {
+    background: #b664b0;
+    background: -webkit-linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+    background: -moz-linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+    background: linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.background-blue-to-red {
+    background: #b664b0;
+    background: -webkit-linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+    background: -moz-linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+    background: linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+}
+
+.text-dark-blue-to-light-blue {
+    background: #2f80ed;
+    background: -webkit-linear-gradient(135deg, #2f80ed 0%, #b2ffda 100%);
+    background: -moz-linear-gradient(135deg, #2f80ed 0%, #b2ffda 100%);
+    background: linear-gradient(135deg, #2f80ed 0%, #b2ffda 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
