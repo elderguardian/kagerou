@@ -25,6 +25,7 @@
 html {
     text-rendering: optimizeLegibility;
     word-break: break-word;
+    scroll-behavior: smooth;
 }
 
 header {
