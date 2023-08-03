@@ -22,6 +22,21 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: rgba(140, 140, 140, 0.16);
+}
+
+h1::selection,
+a::selection,
+a *::selection,
+img::selection {
+    background-color: transparent;
+}
+
+h1 {
+    cursor: default;
+}
+
 html {
     text-rendering: optimizeLegibility;
     word-break: break-word;
@@ -138,18 +153,19 @@ body {
     align-items: center;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 5vw;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: .3vw solid rgba(255, 255, 255, 0.1);
     padding: 4vw;
     margin: 8vw 0;
-    -webkit-box-shadow: 0 -8vw 30vw 0 rgba(123, 73, 167, 1);
-    -moz-box-shadow: 0 -8vw 30vw 0 rgba(123, 73, 167, 1);
-    box-shadow: 0 -8vw 30vw 0 rgba(123, 73, 167, 1);
+    -webkit-box-shadow: 0 -8vw 30vw 0 rgb(123, 73, 167);
+    -moz-box-shadow: 0 -8vw 30vw 0 rgb(123, 73, 167);
+    box-shadow: 0 -8vw 30vw 0 rgb(123, 73, 167);
 }
 
 #section-about img {
     height: 20vw;
     width: auto;
     border-radius: 1vw;
+    border: .5vw solid #939393;
 }
 
 #section-about > div {
