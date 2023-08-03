@@ -22,6 +22,21 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: rgba(140, 140, 140, 0.16);
+}
+
+h1::selection,
+a::selection,
+a *::selection,
+img::selection {
+    background-color: transparent;
+}
+
+h1 {
+    cursor: default;
+}
+
 html {
     text-rendering: optimizeLegibility;
     word-break: break-word;
