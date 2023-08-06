@@ -128,29 +128,6 @@ main {
     color: black;
 }
 
-#section-landing div {
-    min-height: 5vw;
-    height: 5vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#section-landing div span {
-    margin: 0 .3vw;
-    vertical-align: middle;
-    display: inline-block;
-}
-
-#section-landing div svg {
-    min-width: 1.5vw;
-    min-height: 1.5vw;
-    width: 1.5vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #section-about {
     display: flex;
     justify-content: center;
