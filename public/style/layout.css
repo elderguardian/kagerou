@@ -46,7 +46,7 @@ html {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 3vw 2vw;
+    margin: 1.5vw;
     align-items: center;
 }
 
@@ -57,20 +57,22 @@ header h1 {
 }
 
 header a {
-    font-size: 1.5vw;
-    color: black;
-    background-color: white;
+    font-size: 1.2vw;
+    color: white;
+    background-color: transparent;
     text-decoration: none;
-    border-radius: 999px;
+    border-radius: .4vw;
     cursor: pointer;
-    transition: opacity .3s ease-in;
+    transition: .4s ease-in-out;
     text-align: right;
-    padding: 1.5vw 3.5vw;
+    padding: 1.2vw 2vw;
+    font-weight: bold;
+    border: .1vw solid dimgray;
 }
 
 header a:hover {
-    background: radial-gradient(circle at 50% 300%, white, #6b6f76);
-    color: white;
+    background: white;
+    color: black;
 }
 
 body {
