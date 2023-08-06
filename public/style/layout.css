@@ -81,12 +81,8 @@ body {
     font-family: "Inter", "Arial", serif;
 }
 
-main {
-    margin: 0 15%;
-}
-
 #section-landing {
-    margin: 10vw 0 5vw;
+    margin: 12vw 0 0;
     text-align: center;
     min-height: 8vw;
 }
@@ -122,15 +118,13 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 5vw;
-    border: .3vw solid rgba(255, 255, 255, 0.1);
-    padding: 4vw;
-    margin: 8vw 0;
-    -webkit-box-shadow: 0 -8vw 30vw 0 rgb(123, 73, 167);
-    -moz-box-shadow: 0 -8vw 30vw 0 rgb(123, 73, 167);
-    box-shadow: 0 -8vw 30vw 0 rgb(123, 73, 167);
+    background-image: url("../images/planet.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 30vh;
 }
+
 
 #section-about img {
     height: 20vw;
@@ -139,30 +133,26 @@ main {
     border: .5vw solid #939393;
 }
 
-#section-about > div {
-    display: flex;
-    justify-content: space-between;
-    margin: 4vw 0;
-}
-
-#section-about > div > * {
-    max-width: 50%;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
 #section-about h2 {
-    font-size: 2.5vw;
+    padding-top: 16vw;
+    font-size: 3.5vw;
     color: white;
     font-family: "Inter Semi Bold", "Arial", serif;
 }
 
-#section-about p {
-    font-size: 1.5vw;
-    margin: 1vw 0 3vw;
+#section-about p,
+#section-about a {
+    font-size: 1.8vw;
+    text-decoration: none;
 }
 
+#section-about p {
+    margin: 2vw 0;
+}
+
+#section-about a {
+    font-weight: bold;
+}
 
 #section-discover {
     text-align: center;
