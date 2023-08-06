@@ -46,7 +46,7 @@ html {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 5vw;
+    margin: 3vw 2vw;
     align-items: center;
 }
 
@@ -74,10 +74,13 @@ header a:hover {
 }
 
 body {
-    margin: 0 15%;
     background-color: #131415;
     color: #9a9fa8;
     font-family: "Inter", "Arial", serif;
+}
+
+main {
+    margin: 0 15%;
 }
 
 #section-landing {
