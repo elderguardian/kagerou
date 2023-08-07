@@ -1,5 +1,5 @@
 export default {
     build: {
-        minify: 'esbuild',
-    },
-};
+        minify: true
+    }
+}
