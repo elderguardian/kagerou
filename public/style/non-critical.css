@@ -1,3 +1,4 @@
+
 @font-face {
     src: url("../fonts/Inter-Bold.woff2");
     font-family: "Inter Bold";
@@ -16,12 +17,6 @@
     font-display: swap;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 ::selection {
     background-color: rgba(140, 140, 140, 0.16);
 }
@@ -33,14 +28,17 @@ img::selection {
     background-color: transparent;
 }
 
-h1 {
-    cursor: default;
+.text-dark-blue-to-light-blue {
+    background: #2f80ed;
+    background: -webkit-linear-gradient(135deg, #2f80ed 0%, #b2ffda 100%);
+    background: -moz-linear-gradient(135deg, #2f80ed 0%, #b2ffda 100%);
+    background: linear-gradient(135deg, #2f80ed 0%, #b2ffda 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-html {
-    text-rendering: optimizeLegibility;
-    word-break: break-word;
-    scroll-behavior: smooth;
+h1 {
+    cursor: default;
 }
 
 header {
@@ -73,12 +71,6 @@ header a {
 header a:hover {
     background: white;
     color: black;
-}
-
-body {
-    background-color: #131415;
-    color: #9a9fa8;
-    font-family: "Inter", "Arial", serif;
 }
 
 #section-landing {
@@ -122,14 +114,6 @@ body {
     background-position: center;
     width: 100%;
     margin-bottom: 10vw;
-}
-
-
-#section-about img {
-    height: 20vw;
-    width: auto;
-    border-radius: 1vw;
-    border: .5vw solid #939393;
 }
 
 #section-about h2 {
