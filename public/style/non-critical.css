@@ -1,0 +1,216 @@
+
+@font-face {
+    src: url("../fonts/Inter-Bold.woff2");
+    font-family: "Inter Bold";
+    font-display: swap;
+}
+
+@font-face {
+    src: url("../fonts/Inter-SemiBold.woff2");
+    font-family: "Inter Semi Bold";
+    font-display: swap;
+}
+
+@font-face {
+    src: url("../fonts/Inter-Regular.woff2");
+    font-family: "Inter";
+    font-display: swap;
+}
+
+::selection {
+    background-color: rgba(140, 140, 140, 0.16);
+}
+
+h1::selection,
+a::selection,
+a *::selection,
+img::selection {
+    background-color: transparent;
+}
+
+.text-dark-blue-to-light-blue {
+    background: #2f80ed;
+    background: -webkit-linear-gradient(135deg, #2f80ed 0%, #b2ffda 100%);
+    background: -moz-linear-gradient(135deg, #2f80ed 0%, #b2ffda 100%);
+    background: linear-gradient(135deg, #2f80ed 0%, #b2ffda 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    cursor: default;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5vw 1.5vw 12vw;
+}
+
+header h1 {
+    font-size: 2vw;
+    color: white;
+    font-family: "Inter Bold", "Arial", serif;
+}
+
+header a {
+    font-size: 1.2vw;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: .4vw;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    text-align: right;
+    padding: 1.2vw 2vw;
+    font-weight: bold;
+    border: .1vw solid dimgray;
+}
+
+header a:hover {
+    background: white;
+    color: black;
+}
+
+#section-landing {
+    text-align: center;
+    min-height: 8vw;
+}
+
+#section-landing h2 {
+    font-size: 5vw;
+    margin: 2vw 0;
+    color: white;
+    font-family: "Inter Bold", "Arial", serif;
+}
+
+#section-landing p {
+    font-size: 1.5vw;
+    margin: 1vw 0 3vw;
+}
+
+#section-landing a {
+    font-size: 1.5vw;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: .4vw;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    text-align: right;
+    padding: 1.2vw 2vw;
+    font-weight: bold;
+    border: .1vw solid dimgray;
+}
+
+#section-about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/planet.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 10vw;
+}
+
+#section-about h2 {
+    padding-top: 16vw;
+    font-size: 3.5vw;
+    color: white;
+    font-family: "Inter Semi Bold", "Arial", serif;
+}
+
+#section-about p,
+#section-about a {
+    font-size: 1.8vw;
+    text-decoration: none;
+}
+
+#section-about p {
+    margin: 2vw 0;
+}
+
+#section-about a {
+    font-weight: bold;
+    color: #c080ff;
+}
+
+#section-about > div {
+    display: flex;
+    margin-top: 5vw;
+}
+
+#section-about article {
+    width: 50%;
+    margin: 0 2vw;
+    padding: 4vw 2vw 1vw;
+    background: rgba(121, 121, 121, 0.2);
+    border-radius: .5vw;
+}
+
+#section-about article h3 {
+    font-size: 2vw;
+    color: white;
+}
+
+#section-about article p {
+    font-size: 1.7vw;
+}
+
+#section-discover {
+    margin: 2vw 1vw 5vw;
+}
+
+#section-discover h2 {
+    font-size: 2.5vw;
+    color: white;
+    font-family: "Inter Semi Bold", "Arial", serif;
+}
+
+#section-discover div {
+    display: flex;
+    text-align: left;
+    margin-top: 2vw;
+}
+
+#section-discover article {
+    text-decoration: none;
+    color: #c2c2c2;
+    width: 25%;
+    border-radius: .5vw;
+    padding: 1vw;
+}
+
+#section-discover article > * {
+    display: block;
+    width: fit-content;
+    margin: 1vw 0;
+}
+
+#section-discover h3 {
+    font-size: 2vw;
+    color: white;
+    font-family: "Inter Semi Bold", "Arial", serif;
+}
+
+#section-discover article p {
+    font-size: 1.6vw;
+    color: #7d858f;
+    margin-bottom: 3vw;
+}
+
+#section-discover article a {
+    font-size: 1.7vw;
+    color: #388bfd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: 1vw;
+    margin: 3vw 0;
+}
