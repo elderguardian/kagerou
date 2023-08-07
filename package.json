@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "@types/node": "^20.4.8",
-    "vite": "^4.4.0",
-    "vite-plugin-minify": "^1.5.2"
+    "vite": "^4.4.0"
   }
 }
