@@ -2,7 +2,7 @@
 The landing page of a dedicated space for hosting instances of awesome open-source projects.
 
 
-| [Public Instance](hhttps://kagerou.dev/)  |
+| [Public Instance](https://kagerou.dev/)  |
 |-------------------------------------------|
 
 ## Host using Docker
