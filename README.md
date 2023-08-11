@@ -15,3 +15,4 @@ services:
 This will fire up the latest version on port `9001`.
 However, If you want to use a specific version,
 their image can be conveniently accessed from the project's releases page.
+Older releases might not have an available image.
