@@ -1,14 +1,13 @@
+<script>
+    import Landing from "./sections/Landing.svelte";
+</script>
+
 <header>
     <h1>Kagerou</h1>
     <a target="_blank" href="mailto:kagerou@tuta.io">Contact</a>
 </header>
 <main>
-    <section id="section-landing">
-        <h2>Open Source<br>at Your Fingertips</h2>
-        <p>A student and hobby developers page. Feel free to browse through my work, and<br>I hope my projects inspire
-            you as much as they ignite my own excitement for coding!</p>
-        <a target="_blank" href="https://github.com/kagerou-dev/kagerou/">Website Repository</a>
-    </section>
+    <Landing></Landing>
     <section id="section-about">
         <h2>Explore Kagerou's World</h2>
         <p>A dedicated space for oss hosting</p>

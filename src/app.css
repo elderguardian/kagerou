@@ -73,37 +73,6 @@ header a:hover {
     color: black;
 }
 
-#section-landing {
-    text-align: center;
-    min-height: 8vw;
-}
-
-#section-landing h2 {
-    font-size: 5vw;
-    margin: 2vw 0;
-    color: white;
-    font-family: "Inter Bold", "Arial", serif;
-}
-
-#section-landing p {
-    font-size: 1.5vw;
-    margin: 1vw 0 3vw;
-}
-
-#section-landing a {
-    font-size: 1.5vw;
-    color: black;
-    background-color: white;
-    text-decoration: none;
-    border-radius: .4vw;
-    cursor: pointer;
-    transition: .4s ease-in-out;
-    text-align: right;
-    padding: 1.2vw 2vw;
-    font-weight: bold;
-    border: .1vw solid dimgray;
-}
-
 #section-about {
     display: flex;
     justify-content: center;
