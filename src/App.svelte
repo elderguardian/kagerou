@@ -1,5 +1,6 @@
 <script>
-    import Landing from "./sections/LandingSection.svelte";
+    import LandingSection from "./sections/LandingSection.svelte";
+    import DiscoverSection from "./sections/Discover/DiscoverSection.svelte";
 </script>
 
 <header>
@@ -7,24 +8,8 @@
     <a target="_blank" href="mailto:kagerou@tuta.io">Contact</a>
 </header>
 <main>
-    <Landing></Landing>
-    <section id="section-about">
-        <h2>Explore Kagerou's World</h2>
-        <p>A dedicated space for oss hosting</p>
-        <a target="_blank" href="https://github.com/elderguardian">Maintainer</a>
-        <div>
-            <article>
-                <h3>Quick Previews</h3>
-                <p>Each repository which can be publicly hosted is accessible here, allowing you to quickly test
-                    functionality, and user interface before deciding to install it.</p>
-            </article>
-            <article>
-                <h3>Discover Software</h3>
-                <p>Discovering software made easy. Kagerou serves as a hub hosting instances of diverse open source
-                    software projects.</p>
-            </article>
-        </div>
-    </section>
+    <LandingSection></LandingSection>
+    <DiscoverSection></DiscoverSection>
     <section id="section-discover">
         <h2 class="text-blue-to-red">Discover Awesome Creations</h2>
         <div>
