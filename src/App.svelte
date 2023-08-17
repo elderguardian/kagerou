@@ -1,5 +1,5 @@
 <script>
-    import Landing from "./sections/Landing.svelte";
+    import Landing from "./sections/LandingSection.svelte";
 </script>
 
 <header>
