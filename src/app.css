@@ -78,3 +78,19 @@ footer {
     font-size: 1vw;
     margin: 3vw 0;
 }
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 5vw;
+    }
+
+    header a {
+        font-size: 4vw;
+        padding: 2.2vw 3vw;
+        border-radius: 1vw;
+    }
+
+    footer {
+        font-size: 2vw;
+    }
+}

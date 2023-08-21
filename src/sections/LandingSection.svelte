@@ -35,4 +35,28 @@
         font-weight: bold;
         border: .1vw solid dimgray;
     }
+
+    @media screen and (max-width: 600px) {
+        #section-landing,
+        #section-landing * {
+            text-align: left;
+            margin-left: 4vw;
+        }
+
+        #section-landing a {
+            margin: 4vw 0;
+            font-size: 4vw;
+            padding: 2.2vw 3vw;
+            border-radius: 1.5vw;
+        }
+
+        #section-landing h2 {
+            font-size: 12vw;
+        }
+
+        #section-landing p {
+            font-size: 4vw;
+            margin: 0 2vw 5vw 0vw;
+        }
+    }
 </style>

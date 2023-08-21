@@ -24,4 +24,20 @@
         font-size: 1.7vw;
         margin: 2vw 0;
     }
+
+    @media screen and (max-width: 600px) {
+        .about-section-card h3 {
+            font-size: 4vw;
+        }
+
+        .about-section-card p {
+            font-size: 3.5vw;
+        }
+
+        .about-section-card {
+            padding: 6vw 3vw 2vw;
+            width: 90%;
+            margin: 2vw;
+        }
+    }
 </style>

@@ -77,4 +77,27 @@
         text-decoration: none;
         font-weight: bold;
     }
+
+    @media screen and (max-width: 600px) {
+        #section-discover h2 {
+            font-size: 5vw;
+        }
+
+        #section-discover div {
+            flex-direction: column;
+        }
+
+        #section-discover div article {
+            width: 80%;
+        }
+
+        #section-discover h3 {
+            font-size: 3.5vw;
+        }
+
+        #section-discover article p,
+        #section-discover article a {
+            font-size: 3.5vw;
+        }
+    }
 </style>
