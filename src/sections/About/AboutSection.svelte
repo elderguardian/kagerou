@@ -55,4 +55,26 @@
         display: flex;
         margin-top: 5vw;
     }
+
+    @media screen and (max-width: 600px) {
+        .section-about {
+            margin-top: 8vw;
+        }
+
+        .section-about h2 {
+            margin-top: 5vw;
+            font-size: 6vw;
+        }
+
+        .section-about p,
+        .section-about a {
+            font-size: 4vw;
+        }
+
+        .section-about div {
+            margin-top: 5vw;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 </style>
