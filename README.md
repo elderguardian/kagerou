@@ -13,7 +13,7 @@ services:
   kagerou:
     ports:
       - "9001:8090"
-    image: ghcr.io/kagerou-dev/kagrou:latest
+    image: ghcr.io/kagerou-dev/kagerou:latest
 ```
 
 This will fire up the latest version on port `9001`.
