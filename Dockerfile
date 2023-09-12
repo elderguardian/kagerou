@@ -1,10 +1,13 @@
 FROM node:18
 
-WORKDIR /usr/src/app
-COPY . .
+WORKDIR /var/www
+COPY package*.json ./
 RUN npm install
+COPY . .
+
 RUN npm run build
-COPY dist/ /var/www/html
+
+RUN mv /var/www/dist /var/www/html
 
 RUN apt-get update
 RUN apt-get install nginx -y
