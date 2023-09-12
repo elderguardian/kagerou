@@ -12,7 +12,7 @@ The landing page of a dedicated space for hosting instances of awesome open-sour
 services:
   kagerou:
     ports:
-      - "9001:8090"
+      - "9001:80"
     image: ghcr.io/kagerou-dev/kagrou:latest
 ```
 
