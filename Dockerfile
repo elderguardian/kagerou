@@ -1,15 +1,13 @@
 FROM node:18
 
-RUN npm install -g http-server
-
 WORKDIR /usr/src/app
-COPY package*.json ./
-RUN npm install
 COPY . .
-
+RUN npm install
 RUN npm run build
+COPY dist/ /var/www/html
 
-EXPOSE 8090
-WORKDIR /usr/src/app/dist
+RUN apt-get update
+RUN apt-get install nginx -y
 
-CMD ["http-server", "--cors", "-p8090" ]
+EXPOSE 80
+CMD ["nginx","-g","daemon off;"]
