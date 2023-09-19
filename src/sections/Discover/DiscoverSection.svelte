@@ -22,6 +22,12 @@
                 links={[{ name: "repository", url: "https://github.com/elderguardian/flaggen", },
                     { name: "instance", url: "https://flaggen.kagerou.dev/", }]}
         ></DiscoverSectionCard>
+        <DiscoverSectionCard
+                title="ton"
+                description="A lightweight and classless CSS Framework, created to make creating static websites easier."
+                links={[{ name: "repository", url: "https://github.com/elderguardian/ton", },
+                    { name: "preview", url: "https://ton.kagerou.dev/", }]}
+        ></DiscoverSectionCard>
     </div>
 </section>
 <style>
