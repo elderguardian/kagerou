@@ -16,6 +16,12 @@
                 description="Server software for uploading images and displaying them with a pretty embed. Based on the Strawberry Framework."
                 links={[{ name: "repository", url: "https://github.com/elderguardian/monkeyshot", }]}
         ></DiscoverSectionCard>
+        <DiscoverSectionCard
+                title="flaggen"
+                description="A website for generating profile pictures which include country flag"
+                links={[{ name: "repository", url: "https://github.com/elderguardian/flaggen", },
+                    { name: "instance", url: "https://flaggen.kagerou.dev/", }]}
+        ></DiscoverSectionCard>
     </div>
 </section>
 <style>
