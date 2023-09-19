@@ -11,6 +11,11 @@
                 links={[{ name: "repository", url: "https://github.com/elderguardian/img2minecraft", },
                     { name: "instance", url: "https://img2minecraft.kagerou.dev/", }]}
         ></DiscoverSectionCard>
+        <DiscoverSectionCard
+                title="monkeyshot"
+                description="Server software for uploading images and displaying them with a pretty embed. Based on the Strawberry Framework."
+                links={[{ name: "repository", url: "https://github.com/elderguardian/monkeyshot", }]}
+        ></DiscoverSectionCard>
     </div>
 </section>
 <style>
