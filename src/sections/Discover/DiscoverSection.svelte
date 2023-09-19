@@ -1,6 +1,16 @@
+<script>
+    import DiscoverSectionCard from "./DiscoverSectionCard.svelte";
+</script>
+
 <section id="section-discover">
     <h2 class="text-blue-to-red">Discover Awesome Creations</h2>
     <div>
+        <DiscoverSectionCard
+                title="img2minecraft"
+                description="Convert image files into Minecraft blocks, maintaining the original color and look of the picture."
+                links={[{ name: "repository", url: "https://github.com/elderguardian/img2minecraft", },
+                    { name: "instance", url: "https://img2minecraft.kagerou.dev/", }]}
+        ></DiscoverSectionCard>
     </div>
 </section>
 <style>
