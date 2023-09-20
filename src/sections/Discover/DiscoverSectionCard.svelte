@@ -39,6 +39,11 @@
         font-weight: bold;
     }
 
+    h3 {
+        font-size: 2vw;
+        color: #fff;
+        font-family: "Inter Semi Bold", "Arial", serif;
+    }
 
     @media screen and (max-width: 600px) {
         article {
@@ -47,6 +52,10 @@
 
         article p,
         article a {
+            font-size: 3.5vw;
+        }
+
+        h3 {
             font-size: 3.5vw;
         }
     }
