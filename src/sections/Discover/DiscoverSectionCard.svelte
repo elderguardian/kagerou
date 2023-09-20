@@ -49,5 +49,9 @@
         article a {
             font-size: 3.5vw;
         }
+
+        h3 {
+            font-size: 3.5vw;
+        }
     }
 </style>
