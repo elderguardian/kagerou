@@ -28,6 +28,12 @@
                 links={[{ name: "repository", url: "https://github.com/elderguardian/ton", },
                     { name: "preview", url: "https://ton.kagerou.dev/", }]}
         ></DiscoverSectionCard>
+        <DiscoverSectionCard
+                title="maria"
+                description="A Typescript library to simplify the process of fetching from the Schulportal Hessen / Lanis."
+                links={[{ name: "repository", url: "https://github.com/elderguardian/maria", },
+                    { name: "npm", url: "https://www.npmjs.com/package/maria-hessen", }]}
+        ></DiscoverSectionCard>
     </div>
 </section>
 <style>
