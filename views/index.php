@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+{{ head, { "siteUrl": "/" } }}
+<body>
+{{ header, {} }}
+{{ nav, {} }}
 <main>
     <section>
         <h2>About Me</h2>
