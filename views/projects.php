@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+{{ head, { "siteUrl": "/projects.html" } }}
+<body>
+{{ header, {} }}
+{{ nav, {} }}
 <main>
       <h2>Pinned:</h2>
       <ul>
