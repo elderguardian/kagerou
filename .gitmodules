@@ -1,0 +1,3 @@
+[submodule "tengine/view"]
+	path = tengine/view
+	url = https://github.com/strberry/view.git
