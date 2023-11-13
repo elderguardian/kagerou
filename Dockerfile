@@ -1,5 +1,14 @@
 FROM php:8 AS builder
 WORKDIR /var/www
+
+
+RUN apt-get update && \
+    apt-get install -y git
+
+COPY .git .git
+COPY .gitmodules .gitmodules
+RUN git submodule init && git submodule update
+
 COPY . .
 RUN php src/main.php
 
