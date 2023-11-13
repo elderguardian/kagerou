@@ -16,11 +16,12 @@
         <li>(Docker) <a href="https://ghcr.io/elderguardian/leonie">ghcr.io/elderguardian/leonie</a></li>
         <li>(Docker) <a href="https://ghcr.io/elderguardian/img2minecraft">ghcr.io/elderguardian/img2minecraft</a></li>
         <li>(Docker) <a href="https://ghcr.io/elderguardian/monkeyshot">ghcr.io/elderguardian/monkeyshot</a></li>
+        <li>(Docker) <a href="https://ghcr.io/elderguardian/kagerou">ghcr.io/elderguardian/kagerou</a></li>
         <li>(NPM) <a href="https://www.npmjs.com/package/maria-hessen">npmjs.com/package/maria-hessen</a></li>
     </ul>
     <h2>Other Interesting Projects:</h2>
     <ul>
-        <li>This page was created using a <a href="https://github.com/elderguardian/ton">this css</a> as well as a <a href="https://github.com/kagerou-dev/view">this template engine</a>.</li>
+        <li>This page was created using a <a href="https://github.com/elderguardian/ton">this css</a> as well as a <a href="https://github.com/strberry/view">this template engine</a>.</li>
     </ul>
 </main>
 {{ bottom, {} }}
