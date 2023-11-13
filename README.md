@@ -1,9 +1,14 @@
 # The Kagerou Landing Page
-The landing page of a dedicated space for hosting instances of awesome open-source projects.
-
 
 | [Public Instance](https://kagerou.dev/)  |
 |------------------------------------------|
+
+## Development
+
+```
+$ git clone https://github.com/elderguardian/kagerou.git
+$ cd kagerou && ./dev
+```
 
 ## Host using Docker
 

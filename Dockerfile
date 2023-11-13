@@ -1,16 +1,9 @@
-FROM node:18
-
+FROM php:8 AS builder
 WORKDIR /var/www
-COPY package*.json ./
-RUN npm install
 COPY . .
+RUN php src/main.php
 
-RUN npm run build
-
-RUN mv /var/www/dist /var/www/html
-
-RUN apt-get update
-RUN apt-get install nginx -y
-
+FROM nginx:latest
+COPY --from=builder /var/www/dist /usr/share/nginx/html
 EXPOSE 80
-CMD ["nginx","-g","daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
