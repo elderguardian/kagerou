@@ -9,5 +9,7 @@
     <meta name="twitter:description" content="Hobby Developer and Computer Science Student">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary">
-    <meta property="og:url" content="https://example.com{{ $siteUrl }}">
+    <meta property="og:url" content="https://kagerou.dev{{ $siteUrl }}">
+    <link rel="stylesheet" href="/ton/ton.min.css">
+    <link rel="icon" type="image/png" href="/favicon.ico">
 </head>
