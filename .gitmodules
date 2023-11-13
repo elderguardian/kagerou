@@ -1,3 +1,6 @@
-[submodule "tengine/view"]
-	path = tengine/view
+[submodule "src/view"]
+	path = src/view
 	url = https://github.com/strberry/view.git
+[submodule "public/ton"]
+	path = public/ton
+	url = https://github.com/elderguardian/ton.git
