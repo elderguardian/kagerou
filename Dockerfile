@@ -14,5 +14,6 @@ RUN php src/main.php
 
 FROM nginx:latest
 COPY --from=builder /var/www/dist /usr/share/nginx/html
+RUN echo "server_tokens off;" > /etc/nginx/conf.d/hide_version.conf
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
