@@ -12,4 +12,17 @@
     <meta property="og:url" content="https://kagerou.dev{{ $siteUrl }}">
     <link rel="stylesheet" href="/ton/ton.min.css">
     <link rel="icon" type="image/png" href="/favicon.ico">
+    <style>
+        :root {
+            --color-primary: #5e81ac;
+            --color-secondary: #ebcb8b;
+            --color-tertiary: #dc9000;
+            --color-accent: #81a1c1;
+            --color-foreground: #2c2c2c;
+            --color-foreground-secondary: #707070;
+
+            --background-primary: #fff;
+            --background-secondary: #e5e9f0;
+        }
+    </style>
 </head>
