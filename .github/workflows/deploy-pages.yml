@@ -3,17 +3,17 @@ name: CI
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository with submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
