@@ -1,5 +1,5 @@
 <header>
-    <h1>Kagerou: <mark>Luca's page</mark></h1>
+    <h1>&#129712; Kagerou: <mark>Luca's page</mark></h1>
 </header>
 <nav>
     <a href="index.html">Home</a> /
