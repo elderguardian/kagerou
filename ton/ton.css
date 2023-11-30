@@ -1,0 +1,161 @@
+:root {
+    --color-primary: #f16699;
+    --color-secondary: #F8E8EE;
+    --color-tertiary: #FDCEDF;
+    --color-accent: #2296ab;
+    --color-foreground: black;
+    --color-foreground-secondary: #626262;
+
+    --background-primary: #f8f8f8;
+    --background-secondary: #F9F5F6;
+}
+
+a::selection,
+a:hover {
+    color: var(--color-accent);
+    text-decoration: var(--color-accent);
+}
+
+::selection {
+    background-color: var(--color-tertiary);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rubik Semi Bold';
+    src: url('fonts/Rubik-SemiBold.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/Rubik-Regular.ttf');
+    font-display: swap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik Semi Bold', 'Arial', serif;
+    margin: 2rem 0;
+}
+
+body {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Rubik', 'Arial', serif;
+    text-rendering: optimizeSpeed;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    color: var(--color-foreground);
+    background-color: var(--background-primary);
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        width: 700px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        width: 770px;
+    }
+}
+
+hr {
+    color: #eceff4;
+    border: 1px solid;
+    margin: 1rem 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: .8rem;
+}
+
+h6 {
+    font-size: .7rem;
+}
+
+hgroup *:nth-child(1) {
+    margin-bottom: .2rem;
+}
+
+hgroup *:nth-child(2) {
+    color: var(--color-foreground-secondary);
+    margin-top: .2rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+mark {
+    padding: .2em;
+    background-color: var(--color-secondary);
+}
+
+del, s, ins, u {
+    text-decoration-thickness: 1px;
+}
+
+ins, u {
+    text-underline-offset: 2px;
+}
+
+blockquote {
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: var(--background-secondary);
+    border-left: 5px solid var(--color-primary);
+}
+
+blockquote footer {
+    margin: .5rem;
+    color: var(--color-foreground);
+}
+
+ul {
+    margin: 1.5rem 1.8rem;
+}
+
+a {
+    color: var(--color-primary);
+    text-underline-offset: .2rem;
+}
+
+dd {
+    margin: .2rem 2rem;
+}
+
+img, video, svg {
+  max-width: 100%;
+  height: auto;
+}
