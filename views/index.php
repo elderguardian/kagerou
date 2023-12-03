@@ -15,9 +15,9 @@
     <section>
         <h2>Interests</h2>
         <ul>
-            <li>Clean code, architecture, and software design</li>
-            <li>Linux-based operating systems</li>
-            <li>Guitar / music (Tarrega, Chopin, Liszt…)</li>
+            <li>&#128703; Clean code, architecture, and software design</li>
+            <li>&#129299; Linux-based operating systems</li>
+            <li>&#127925; Guitar / music (Tarrega, Chopin, Liszt…)</li>
         </ul>
     </section>
 </main>
