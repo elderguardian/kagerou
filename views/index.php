@@ -9,7 +9,7 @@
 
         <ul>
             <li>Hobby Developer</li>
-            <li>German Fachoberschule</li>
+            <li>German Fachoberschule Student</li>
             <li>GitHub <a href="https://github.com/elderguardian">@elderguardian</a></li>
         </ul>
         <p>
