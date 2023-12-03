@@ -6,11 +6,13 @@
 <main>
     <section>
         <h2>About Me</h2>
+
+        <ul>
+            <li>Hobby Developer</li>
+            <li>German Fachoberschule</li>
+            <li>GitHub <a href="https://github.com/elderguardian">@elderguardian</a></li>
+        </ul>
         <p>
-            Hey, I am a hobby developer and a computer science student at a German
-            Fachoberschule. I create open-source software using mostly TypeScript.
-            You can find me on GitHub as <a href="https://github.com/elderguardian">@elderguardian</a>,
-            like the boss from Minecraft.
         </p>
     </section>
     <section>
