@@ -6,6 +6,7 @@
 <main>
     <h2>Pinned:</h2>
     <ul>
+        <li>&#127827; <a href="https://github.com/strberry">strawberry</a>: A lightweight PHP framework.</li>
         <li>&#129302; <a href="https://github.com/elderguardian/leonie">leonie</a>: A lightweight TypeScript Discord bot.</li>
         <li>&#127891; <a href="https://github.com/elderguardian/maria">maria</a>: A library to fetch information from schools in Hessen, Germany.</li>
         <li>&#129482; <a href="https://github.com/elderguardian/img2minecraft">img2minecraft</a>: A web-based tool to convert images.</li>
