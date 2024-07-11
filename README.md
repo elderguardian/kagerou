@@ -1,6 +1,6 @@
 # The Kagerou Landing Page
 
-| [Public Instance](https://kagerou.dev/)  |
+| [Public Instance](https://elderguardian.github.io/kagerou/)  |
 |------------------------------------------|
 
 ## Development
