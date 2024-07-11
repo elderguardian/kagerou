@@ -10,9 +10,9 @@
     <meta name="keywords" content="Kagerou, Dev, Luca, Hobby Developer, Fachoberschule, GitHub, Clean Code, Software Design, Linux, Guitar, Tarrega, Chopin, Liszt, Developer Portfolio, Blog, Programming, GitHub Repository, Technology, Music Enthusiast, German Developer">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary">
-    <meta property="og:url" content="https://kagerou.dev{{ $siteUrl }}">
-    <link rel="stylesheet" href="/ton/ton.min.css">
-    <link rel="icon" type="image/png" href="/favicon.ico">
+    <meta property="og:url" content="https://elderguardian.github.io/kagerou{{ $siteUrl }}">
+    <link rel="stylesheet" href="ton/ton.min.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <style>
         :root {
             --color-primary: #5e81ac;
