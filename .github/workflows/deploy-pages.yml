@@ -3,7 +3,6 @@ name: CI
 on:
   push:
     branches: [ "main" ]
-
   workflow_dispatch:
 
 jobs:
@@ -19,13 +18,16 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.0'
-  
+
+      - name: Install Composer dependencies
+        run: composer install
+
       - name: Compile
         run: php src/main.php
-  
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./dist
-
