@@ -7,8 +7,8 @@
     <section>
         <h2>About Me</h2>
         <ul>
-            <li>&#129489;&#127995;&#8205;&#128187; Hobby Developer with a <a href="https://kagerou.deno.dev">Blog</a></li>
-            <li>&#127465;&#127466; German Fachoberschule Student</li>
+            <li>&#129489;&#127995;&#8205;&#128187; Hobby Developer</li>
+            <li>&#127465;&#127466; German Student</li>
             <li>&#128100; GitHub <a href="https://github.com/elderguardian">@elderguardian</a></li>
         </ul>
     </section>
